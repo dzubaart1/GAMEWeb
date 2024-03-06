@@ -11,7 +11,7 @@ $pdo = new PDO($dsn, $user, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPT
 
 $postEmail = $_POST['email'];
 
-$query = $pdo->query('SELECT * FROM gameUsers WHERE email = ' . $postEmail);
+$query = $pdo->query('SELECT * FROM gameUsers WHERE email = xxxr771@gmail.com;');
 
 if($query->rowCount() > 0)
 {
