@@ -9,12 +9,16 @@ $dsn = "pgsql:host=$host;port=5432;dbname=$db;";
 
 $pdo = new PDO($dsn, $user, $password, [PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION]);
 
-$query = $pdo->query('SELECT * FROM gameUsers');
-$resultset = $query->fetchAll(\PDO::FETCH_ASSOC);
+$postEmail = $_POST['email'];
 
-echo '<ol>';
-foreach($resultset as $stud)
+$query = $pdo->query('SELECT * FROM gameUsers WHERE email = ' . $postEmail);
+
+if($query->rowCount() > 0)
 {
-  echo '<li>' . $stud['id'] . '. ' .  $stud['name'] . ' ' . $stud['email'] . $stud['email'] .'</li>';
+  $resultset = $query->fetchAll(\PDO::FETCH_ASSOC);
+  echo 'Привет, ты уже зарегистрирован!';
 }
-echo '</ol>';
+else
+{
+  echo ' Привет, новенький!'
+}
