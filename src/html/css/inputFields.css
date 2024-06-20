@@ -1,0 +1,44 @@
+input[type="text"], input[type="email"], input[type="password"]
+{
+    background: none;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+input[type="date"]
+{
+    background: none;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+}
+
+input[type="number"]
+{
+    background: none;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 10px 15px;
+}
+
+.sphere-editing-input-field
+{
+    background: none;
+    border: 2px solid #C0C0C0;
+    border-radius: 10px;
+    padding: 10px 15px;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+input[type="number"]::-webkit-inner-spin-button, 
+input[type="number"]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}

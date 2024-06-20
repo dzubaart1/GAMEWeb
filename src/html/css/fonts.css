@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aldrich&display=swap');
+
+h1
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+h2
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 0;
+    margin: 0;
+}
+
+h3
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 18px;
+    padding: 0;
+    margin: 0;
+}
+
+p
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+a
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    padding: 0;
+    margin: 0; 
+
+    padding-bottom: 10px;
+    border: none;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: #ccc;
+}
+
+.h1-page
+{
+    font-family: "Montserrat", sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #8F07CF;
+    padding: 0;
+    margin: 0;
+}
+
+.logo
+{
+    font-family: "Aldrich", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    color: #9740C0;
+    padding: 0;
+    margin: 0;
+}

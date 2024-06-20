@@ -1,0 +1,36 @@
+.contacts
+{
+    margin-bottom: 80px;
+}
+
+.contacts .row
+{
+    margin: 0 15px;
+}
+
+.contacts h2
+{
+    margin-bottom: 20px;
+}
+
+.contacts table tr
+{
+    border-bottom: 1px solid black;
+}
+
+.contacts table td
+{
+    padding: 10px;
+}
+
+.contacts table tr td:nth-child(1) p
+{
+    font-weight: bold;
+}
+
+.contacts .row
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;    
+}

@@ -1,0 +1,23 @@
+.date
+{
+    border: 1px solid #c0c0c0;
+    border-radius: 15px;
+}
+
+.date h1
+{
+    margin-bottom: 15px;
+}
+
+.date-header
+{
+    background-color: aqua;
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.date-content
+{
+    padding: 15px 20px;
+}

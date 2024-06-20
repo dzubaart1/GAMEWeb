@@ -1,0 +1,115 @@
+.sphere
+{
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
+
+.sphere-header
+{
+    background-color: aqua;
+    height: 70px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.sphere-header label input[type=color]
+{
+    opacity: 0;
+    width: 20px;
+}
+
+.sphere-header label
+{
+    margin: 0;
+}
+
+.sphere-header label input
+{
+    width: 50px;
+}
+
+.sphere-inputs
+{
+    padding: 15px 20px;
+}
+
+.sphere-inputs label
+{
+    margin: 0;
+}
+
+.sphere-adding-inputs input
+{
+    width: 50px;
+    text-align: center;
+}
+
+.sphere-adding-inputs
+{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+
+.sphere-adding-inputs td:not(:first-child)
+{
+    align-items: center;
+}
+
+.sphere-adding-inputs table
+{
+    border-spacing: 0 5px;
+}
+
+.sphere-adding-inputs .green-primary-btn
+{
+    margin-left: 20px;
+}
+
+.sphere h1
+{
+    margin-bottom: 15px;
+}
+
+.progress-bar-grey
+{
+    background-color: #c0c0c0;
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.progress-bar-current
+{
+    width: 100%;
+    height: 20px;
+    border-radius: 15px;
+}
+
+.hint
+{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    width: 260px;
+    height: 100px;
+    border-radius: 15px;
+    background-color: white;
+    padding: 15px 20px;
+    box-shadow: 1px 1px 41px -8px rgba(0,0,0,0.3);
+    -webkit-box-shadow: 1px 1px 41px -8px rgba(0,0,0,0.3);
+    -moz-box-shadow: 1px 1px 41px -8px rgba(0,0,0,0.3);
+
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.hint-img:hover + .hint
+{
+    display: flex;
+}

@@ -1,0 +1,56 @@
+.mainComp .menu .menu-button
+{
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 15px 20px;
+} 
+
+.mainComp .menu .row:last-child .menu-button
+{
+    background-color: #FFD54F;
+}
+
+.mainComp .menu .row:first-child .menu-button:first-child
+{
+    background-color: #4DCCD4;
+}
+
+.mainComp .menu .row:first-child .menu-button:nth-child(2)
+{
+    background-color: #DE6F6F;
+}
+
+.mainComp .dashboard
+{
+    padding: 15px 20px;
+    border-radius: 15px;
+    border: 1px solid #c0c0c0;
+}
+
+.mainComp .dashboard table
+{
+    border-spacing: 10px;
+	border-collapse: separate;
+}
+
+.mainComp .dashboard table td:nth-child(3)
+{
+    background-image: url('/imgs/icons/xp.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 30%;
+}
+
+@media screen and (max-width: 991px)
+{
+    .s-button-next, .s-button-prev
+    {
+        display: none;
+    }
+}
+  

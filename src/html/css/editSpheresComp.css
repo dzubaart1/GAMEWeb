@@ -1,0 +1,4 @@
+.editSpheres > form button:not(:last-child)
+{
+    margin-bottom: 15px;
+}

@@ -1,0 +1,46 @@
+.userInfo .info
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.userInfo .xp
+{
+    padding-right: 10px;
+    padding-left: 35px;
+    border: 1px solid #c0c0c0;
+    min-width: 80px;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-image: url('/imgs/icons/xp.svg');
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 20px;
+    text-align: right;
+}
+
+.userInfo .level
+{
+    padding-right: 10px;
+    padding-left: 35px;
+    border: 1px solid #c0c0c0;
+    min-width: 100px;
+    border-radius: 15px;
+    margin-right: 10px;
+    background-image: url('/imgs/icons/level.svg');
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    background-size: 15px;
+    text-align: right;
+}
+
+.hello-block
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.hello-block a
+{
+    margin-left: 10px;
+}

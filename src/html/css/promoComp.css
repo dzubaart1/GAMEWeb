@@ -1,0 +1,13 @@
+.promo
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.promo-text h2
+{
+    margin-bottom: 15px;
+}

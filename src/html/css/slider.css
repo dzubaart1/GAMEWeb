@@ -1,0 +1,39 @@
+.s-button-next, .s-button-prev
+{
+    height: 50px;
+    background-image: url('/imgs/icons/arrow.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.s-button-prev
+{
+    transform: rotate(180deg);
+}
+
+.swiper
+{
+    overflow-y: visible;
+}
+
+.s-pagination
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15px;
+}
+
+.swiper-pagination-bullet
+{
+    background-color: black;
+}
+
+@media screen and (max-width: 991px)
+{
+    .s-button-next, .s-button-prev
+    {
+        display: none;
+    }
+}
+  
