@@ -43,7 +43,7 @@
                     <button class="big-yellow-btn"type="submit" name="type" value="add">Добавить</button>
                 </form>
 
-                <?
+                <?php
                 if(count($this -> spheres) == 0)
                 {
                     ?>
@@ -51,7 +51,7 @@
                         <source srcset="../imgs/emptySpheres.webp" type="image/webp">
                         <img src="../imgs/emptySpheres.webp" style="max-width:100%;">
                     </picture>
-                    <?
+                    <?php
                 }
                 else
                 {
@@ -62,7 +62,7 @@
                     <div class='slider col-lg-5'>
                         <div class='swiper'>
                             <div class='swiper-wrapper'>
-                            <?
+                            <?php
                             foreach($this -> spheres as $sphere)
                             {
                                 $sphere->printForEditing();
@@ -75,11 +75,11 @@
                     <div class="col-lg-1">
                         <div class='s-button-next'></div>
                     </div>
-                    <?
+                    <?php
                 }
                 ?>
             </section>
-            <?
+            <?php
         }
     }
 

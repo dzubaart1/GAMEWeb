@@ -10,7 +10,7 @@
                     <img src="../imgs/icons/close.svg"/>
                 </a>
             </header>
-            <?
+            <?php
         }
     }
 

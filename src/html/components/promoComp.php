@@ -15,7 +15,7 @@
                     <img src="../imgs/promoImg.webp" style="max-width:80%;">
                 </picture>
             </section>
-            <?
+            <?php
         }
     }
 

@@ -17,7 +17,7 @@
             <header class="userInfo header">
                 <div class="hello-block">
                     <p>
-                        Привет, <? echo $this->user['name'] ?>
+                        Привет, <?php echo $this->user['name'] ?>
                     </p>
                     <a href="registerPage.php" onclick="onExit();">
                         <img src="/imgs/icons/exit.svg" width="15">
@@ -25,14 +25,14 @@
                 </div>
                 <div class="info">
                     <span class="xp">
-                        <? echo $this->xp ?> XP
+                        <?php echo $this->xp ?> XP
                     </span>
                     <span class="level">
-                        <? echo intdiv($this->xp, 100) ?> Level
+                        <?php echo intdiv($this->xp, 100) ?> Level
                     </span>
                 <div>
             </header>
-            <?
+            <?php
         }
     }
 

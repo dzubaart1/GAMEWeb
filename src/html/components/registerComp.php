@@ -1,4 +1,4 @@
-<?php
+<?phpphp
 
     if ($_SERVER['REQUEST_METHOD'] == 'POST')
     {
@@ -25,7 +25,7 @@
 					<br>
 					<button class="big-yellow-btn" type="submit" style="margin-bottom: 15px">Регистрация</button><br>
 					<a href="loginPage.php">Вход</a>
-					<?php
+					<?phpphp
 						if(isset($_COOKIE['message']))
 						{
 							$message = $_COOKIE['message'];
@@ -38,7 +38,7 @@
 					<img src="../imgs/register.webp" style="max-width:80%;">
 				</picture>
 			</section>
-            <?
+            <?php
         }
     }
 

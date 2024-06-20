@@ -28,7 +28,7 @@
                     </div>
                 </ul>
 
-                <?
+                <?php
                     if(count($this -> spheres) == 0)
                     {
                         ?>
@@ -36,7 +36,7 @@
                             <source srcset="../imgs/emptySpheres.webp" type="image/webp">
                             <img src="../imgs/emptySpheres.webp" style="max-width:100%;">
                         </picture>
-                        <?
+                        <?php
                     }
                     else
                     {
@@ -51,7 +51,7 @@
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?
+                                    <?php
                                         foreach($this->spheres as $sphere)
                                         {
                                             $sphere->printForTableAtAll();
@@ -60,11 +60,11 @@
                                 </tbody>
                             </table>
                         </div>
-                        <?
+                        <?php
                     }
                 ?>
             </section>
-            <?
+            <?php
         }
     }
 

@@ -5,7 +5,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <?
+    <?php
         include('backEnd/commonHead.php');
     ?>
 
@@ -13,7 +13,7 @@
 </head>
 <body>
     <div class="container">
-        <?
+        <?php
             include('components/indexHeaderComp.php');
             include('components/promoComp.php');
             include('components/insetComp.php');

@@ -1,0 +1,27 @@
+services:
+  pg:
+    image: postgres:15.6-bullseye
+    restart: always
+    environment:
+      POSTGRES_PASSWORD: 1Qwerty
+    volumes:
+      - ./pg/database.sql:/app/database.sql
+      - ./pg/database.sql:/docker-entrypoint-initdb.d/database.sql
+      - ./pg/data:/var/lib/postgresql/data
+    ports:
+      - 8433:5432
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: xxxr771@gmail.com
+      PGADMIN_DEFAULT_PASSWORD: Qw122476
+    ports:
+      - 5033:80
+    volumes:
+      - ./pgadmin-data:/var/lib/pgadmin
+  php:
+    build: .
+    ports:
+      - 8140:80
+    volumes:
+      - ./src/html:/var/www/html

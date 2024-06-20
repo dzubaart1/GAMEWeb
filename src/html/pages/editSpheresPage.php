@@ -6,7 +6,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-    <?
+    <?php
         include('../backEnd/commonHead.php');
     ?>
 
@@ -14,7 +14,7 @@
 </head>
 <body>
     <div class="page container">
-        <?
+        <?php
             include('../components/pageHeaderComp.php');
             $pageHeader = new PageHeaderComponent("Правка сфер");
             $pageHeader->print();

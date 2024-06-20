@@ -7,7 +7,7 @@
             <section class="copyright row">
                 <p>Copyright © 2010-2024 GAME</p>
             </section>
-            <?
+            <?php
         }
     }
 

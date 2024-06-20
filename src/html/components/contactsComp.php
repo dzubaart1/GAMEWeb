@@ -27,7 +27,7 @@
                     </picture>
                 </div>
             </section>
-            <?
+            <?php
         }
     }
 

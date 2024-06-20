@@ -22,7 +22,7 @@
                     </section>
                 </div>
             </header>
-            <?
+            <?php
         }
     }
 

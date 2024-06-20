@@ -30,7 +30,7 @@ class HistoryComponent extends Component
                 <input name="toDate" type="date"><br>
                 <button class="big-yellow-btn" type="submit">Поиск</button>
             </form>
-            <?
+            <?php
                 if(count($this -> dates) == 0)
                 {
                     ?>
@@ -38,7 +38,7 @@ class HistoryComponent extends Component
                         <source srcset="../imgs/emptyHistory.webp" type="image/webp">
                         <img src="../imgs/emptyHistory.webp" style="max-width:80%;">
                     </picture>
-                    <?
+                    <?php
                 }
                 else
                 {
@@ -49,7 +49,7 @@ class HistoryComponent extends Component
                     <div class='slider col-lg-5'>
                         <div class='swiper'>
                             <div class='swiper-wrapper'>
-                            <?
+                            <?php
                                 usort($this->dates, "spheresSort");
                                 foreach($this->dates as $date)
                                 {
@@ -63,11 +63,11 @@ class HistoryComponent extends Component
                     <div class="col-lg-1">
                         <div class='s-button-next'></div>
                     </div>
-                    <?
+                    <?php
                 }
             ?>
         </section>
-        <?
+        <?php
     }
 }
 

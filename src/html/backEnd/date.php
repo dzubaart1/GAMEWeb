@@ -15,10 +15,10 @@
         {
             ?>
                 <section class="date swiper-slide">
-                    <div class="date-header" style="background-color: <? echo $this->spheres[0]->color ?>">
+                    <div class="date-header" style="background-color: <?php echo $this->spheres[0]->color ?>">
                     </div>
                     <div class="date-content">
-                        <h1><? echo $this->date ?></h1>
+                        <h1><?php echo $this->date ?></h1>
                         <table>
                             <thead>
                                 <tr>
@@ -27,7 +27,7 @@
                                 </tr>
                             </thead>
                             <tbody>
-                                <?
+                                <?php
                                     foreach($this->spheres as $sphere)
                                     {
                                         $sphere->printForTableOnlyXP();
@@ -37,7 +37,7 @@
                         </table>
                     </div>
                 </section>
-            <?
+            <?php
         }
 
         public function addSphere($sphere)

@@ -11,7 +11,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<?
+	<?php
         include('../backEnd/commonHead.php');
     ?>
 
@@ -19,7 +19,7 @@
 </head>
 <body>
 	<div class="page container">
-		<?
+		<?php
 			include('../components/loginHeaderComp.php');
 			include('../components/loginComp.php');
 			include('../components/copyrightComp.php');
