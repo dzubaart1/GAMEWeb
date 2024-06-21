@@ -1,16 +1,16 @@
 function OnClickAddResultsBtn()
 {
-	location.assign("/~s336533/public_html/game/pages/addResultsPage.php"); 	
+	location.assign("/~s336533/game/pages/addResultsPage.php"); 	
 }
 
 function OnClickEditSpheresBtn()
 {
-	location.assign("/~s336533/public_html/game/pages/editSpheresPage.php"); 	
+	location.assign("/~s336533/game/pages/editSpheresPage.php"); 	
 }
 
 function OnClickHistoryBtn()
 {
-	location.assign("/~s336533/public_html/game/pages/historyPage.php"); 	
+	location.assign("/~s336533/game/pages/historyPage.php"); 	
 }
 
 function onExit()

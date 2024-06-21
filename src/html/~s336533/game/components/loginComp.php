@@ -37,7 +37,7 @@
 						if(isset($_COOKIE['message']))
 						{
 							$message = $_COOKIE['message'];
-							echo "<p>$message</p>";
+							echo "<p class='error'>$message</p>";
 						}
 					?>
 				</form>

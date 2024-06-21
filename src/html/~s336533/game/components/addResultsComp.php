@@ -36,10 +36,13 @@
                 if(count($this -> spheres) == 0)
                 {
                     ?>
-                    <picture class="col-lg-4 offset-lg-2">
-                        <source srcset="<? echo $this->path?>/imgs/emptySpheres.webp" type="image/webp">
-                        <img src="<? echo $this->path?>/imgs/emptySpheres.webp" style="max-width:100%;">
-                    </picture>
+                    <figure class="col-lg-4 offset-lg-3">
+                        <picture>
+                            <source srcset="<?echo $this->path?>/imgs/emptySpheres.webp" type="image/webp">
+                            <img src="<?echo $this->path?>/imgs/emptySpheres.webp" style="max-width:100%;">
+                        </picture>
+                        <figcaption>Пока что нет сфер для отображения</figcaption>
+                    </figure>
                     <?php
                 }
                 else

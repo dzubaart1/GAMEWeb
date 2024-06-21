@@ -36,4 +36,17 @@
         display: none;
     }
 }
+
+figure
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+figure figcaption
+{
+    margin-top: 20px;
+}
   

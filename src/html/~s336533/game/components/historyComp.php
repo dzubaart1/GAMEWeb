@@ -36,10 +36,13 @@ class HistoryComponent extends Component
                 if(count($this -> dates) == 0)
                 {
                     ?>
-                    <picture class="col-lg-4 offset-lg-2">
-                        <source srcset="<? echo $this->path?>/imgs/emptyHistory.webp" type="image/webp">
-                        <img src="<? echo $this->path?>/imgs/emptyHistory.webp" style="max-width:80%;">
-                    </picture>
+                    <figure class="col-lg-4 offset-lg-3">
+                        <picture>
+                            <source srcset="<? echo $this->path?>/imgs/emptyHistory.webp" type="image/webp">
+                            <img src="<? echo $this->path?>/imgs/emptyHistory.webp" style="max-width:80%;">
+                        </picture>
+                        <figcaption>Пока что истории достижений нет</figcaption>
+                    </figure>
                     <?php
                 }
                 else

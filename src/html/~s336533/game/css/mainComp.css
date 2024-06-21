@@ -25,6 +25,21 @@
     background-color: #DE6F6F;
 }
 
+.mainComp .menu .row:last-child .menu-button:hover
+{
+    background-color: #e0b116;
+}
+
+.mainComp .menu .row:first-child .menu-button:first-child:hover
+{
+    background-color: #2dbec9;
+}
+
+.mainComp .menu .row:first-child .menu-button:nth-child(2):hover
+{
+    background-color: #cf4848;
+}
+
 .mainComp .dashboard
 {
     padding: 15px 20px;

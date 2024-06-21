@@ -1,5 +1,5 @@
 <?php
-    $path = "/~s336533/public_html/game";
+    $path = "/~s336533/game";
 
     include('queryGenerator.php');
     include('sphere.php');
