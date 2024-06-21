@@ -132,3 +132,11 @@ a:hover > img
     -webkit-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.5);
     -moz-box-shadow: 0px 0px 15px -7px rgba(0,0,0,0.5);
 }
+
+@media screen and (max-width: 991px)
+{
+    .big-yellow-btn
+    {
+        text-align: center;
+    }
+}

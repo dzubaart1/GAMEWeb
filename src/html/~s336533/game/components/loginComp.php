@@ -32,7 +32,7 @@
 					<input name="password" type="password" placeholder="Пароль">
 					<br>
 					<button class="big-yellow-btn" type="submit" style="margin-bottom: 15px">Вход</button><br>
-					<a href="<? echo $this->path?>/pages/registerPage.php">Регистрация</a>
+					<a href="<? echo $this->path?>/pages/registerPage.php">Нет аккаунта?</a>
 					<?php
 						if(isset($_COOKIE['message']))
 						{

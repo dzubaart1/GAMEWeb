@@ -1,7 +1,7 @@
 input[type="text"], input[type="email"], input[type="password"]
 {
     font-family: "Montserrat", sans-serif;
-    font-weight: normal !important;
+    font-weight: normal;
     font-size: 14px;
     background: none;
     border: 2px solid #C0C0C0;
@@ -14,7 +14,7 @@ input[type="text"], input[type="email"], input[type="password"]
 input[type="date"]
 {
     font-family: "Montserrat", sans-serif;
-    font-weight: normal !important;
+    font-weight: normal;
     font-size: 14px;
     background: none;
     border: 2px solid #C0C0C0;
@@ -41,7 +41,7 @@ input[type="date"]:focus, input[type="number"]:focus
 }
 
 
-.sphere-editing-input-field
+input[type="text"].sphere-editing-input-field
 {
     background: none;
     border: 2px solid #C0C0C0;

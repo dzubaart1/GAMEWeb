@@ -67,5 +67,10 @@
     {
         display: none;
     }
+    .mainComp .menu .menu-button
+    {
+        height: 100px;
+        margin-top: 15px;
+    }
 }
   

@@ -39,6 +39,7 @@
 .navbar-nav
 {
     margin-right: 100px;
+    text-align: center;
 }
 
 @media screen and (max-width: 991px)
@@ -59,6 +60,11 @@
     {
         flex-direction: column;
         margin-bottom: 20px;
+    }
+
+    .index-header ul li
+    {
+        margin-right: 0;
     }
 }
   

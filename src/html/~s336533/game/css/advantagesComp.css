@@ -37,3 +37,11 @@
 {
     width: 50%;
 }
+
+@media screen and (max-width: 991px)
+{
+    .advantages ul.row
+    {
+        padding: 0 30px;
+    }
+}
